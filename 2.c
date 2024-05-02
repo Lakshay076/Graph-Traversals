@@ -196,7 +196,7 @@ void BFS(GraphList* graph, int start_vertex) {
 
 int main(){
 
-    GraphList *gMatrix = create_graph_list(4);
+    GraphList *gMatrix = create_graph_list(5);
     add_edge_list(gMatrix, 0, 1);
     add_edge_list(gMatrix, 0, 2);
     add_edge_list(gMatrix, 0, 3);
